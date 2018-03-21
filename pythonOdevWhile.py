@@ -1,4 +1,4 @@
-
+#1.soru
 sm=500
 bsf=20
 ciro=5000
