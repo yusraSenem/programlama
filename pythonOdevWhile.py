@@ -14,7 +14,11 @@ while True:
     i=i+1#ay
 
 
-#2.soyilstk=gcyilstk+(100-500)
+#2.soru
+gcyilstk=10000
+i=1#ay
+while True:
+    gcyilstk=gcyilstk+(100-500)
     if (gcyilstk==0):
         print(i,"ay sonra stok miktarı sıfırlanır.gcyilstk:",gcyilstk)
         break
@@ -56,11 +60,8 @@ while True:
     print("aylık ödenen toplam personel maaşı:",odnnmaas,"TL")       
     
 
-gcyilstk=10000
-i=1#ay
-while True:
-    gc  print("Aylık belirlenen mesai saatini aştınız!")
-        break
+
+
     
 
 #5.soru
