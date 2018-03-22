@@ -7,19 +7,14 @@ while True:
     print(i)
     sm=sm+200
     bsf=bsf+10
-    ciro=sm*bsf
+    ciro=ciro+(sm*bsf)
     if (ciro>500000):
         print(i,"ay sonra ciro 500.000'den fazla oldu. cironuz:",ciro)
         break
     i=i+1#ay
 
 
-#2.soru
-
-gcyilstk=10000
-i=1#ay
-while True:
-    gcyilstk=gcyilstk+(100-500)
+#2.soyilstk=gcyilstk+(100-500)
     if (gcyilstk==0):
         print(i,"ay sonra stok miktarı sıfırlanır.gcyilstk:",gcyilstk)
         break
@@ -59,8 +54,12 @@ while True:
     print("aylık mesai ücreti:",aylms,"TL")
     odnnmaas=(cls*30*yvm)+aylms
     print("aylık ödenen toplam personel maaşı:",odnnmaas,"TL")       
-    if (4*hfms>22):
-        print("Aylık belirlenen mesai saatini aştınız!")
+    
+
+gcyilstk=10000
+i=1#ay
+while True:
+    gc  print("Aylık belirlenen mesai saatini aştınız!")
         break
     
 
